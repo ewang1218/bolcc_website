@@ -1,13 +1,13 @@
 require 'test_helper'
 
-class PageControllerControllerTest < ActionController::TestCase
+class PagesControllerTest < ActionController::TestCase
   test "should get home" do
     get :home
     assert_response :success
   end
 
-  test "should get upcoming_news" do
-    get :upcoming_news
+  test "should get upcoming_events" do
+    get :upcoming_events
     assert_response :success
   end
 
@@ -21,11 +21,6 @@ class PageControllerControllerTest < ActionController::TestCase
     assert_response :success
   end
 
-  test "should get testimonies" do
-    get :testimonies
-    assert_response :success
-  end
-
   test "should get pictures" do
     get :pictures
     assert_response :success
@@ -33,6 +28,11 @@ class PageControllerControllerTest < ActionController::TestCase
 
   test "should get contact_us" do
     get :contact_us
+    assert_response :success
+  end
+
+  test "should get testimonies" do
+    get :testimonies
     assert_response :success
   end
 

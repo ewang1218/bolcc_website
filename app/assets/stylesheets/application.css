@@ -12,4 +12,17 @@
  *
  *= require_tree .
  *= require_self
+ *= require animate.css
+ *= require YTPlayer.css
+ *= require flexslider.css
+ *= require magnific-popup.css
+ *= require owl.carousel.css
+ *= require owl.theme.css
+ *= require pages.scss
+ *= require rev-style.css
+ *= require style-gold.css
+ *= require style.css
+ *= require yamm.css
+ *= require style-green.css
+ *= require bootstrap.min.css
  */

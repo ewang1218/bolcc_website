@@ -1,27 +1,23 @@
 Rails.application.routes.draw do
-  get 'page_controller/home'
+  get 'pages/home'
 
-  get 'page_controller/upcoming_news'
+  get 'pages/upcoming_events'
 
-  get 'page_controller/about_us'
+  get 'pages/about_us'
 
-  get 'page_controller/service_sched'
+  get 'pages/service_sched'
 
-  get 'page_controller/testimonies'
+  get 'pages/pictures'
 
-  get 'page_controller/pictures'
+  get 'pages/contact_us'
 
-  get 'page_controller/contact_us'
-
-  get 'static_pages/home'
-
-  get 'static_pages/help'
+  get 'pages/testimonies'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+  root :controller => 'pages', :action => :home
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
@@ -30,7 +26,7 @@ Rails.application.routes.draw do
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
 
   # Example resource route (maps HTTP verbs to controller actions automatically):
-  #   resources :products
+    resources :pages
 
   # Example resource route with options:
   #   resources :products do

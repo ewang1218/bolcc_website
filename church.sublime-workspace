@@ -1,0 +1,234 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"date",
+				"datetimepicker"
+			],
+			[
+				"text",
+				"text_field"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 75.0,
+		"selected_items":
+		[
+			[
+				"package install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"package instal",
+				"Package Control: Install Package"
+			],
+			[
+				"package ins",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/ranimosity/bolccwebsite"
+	],
+	"file_history":
+	[
+		"/home/ranimosity/Projects/bolcc_website/config/routes.rb",
+		"/home/ranimosity/SmartCal/app/views/events/_form.html.erb",
+		"/home/ranimosity/SmartCal/app/assets/javascripts/application.js",
+		"/home/ranimosity/SmartCal/app/assets/stylesheets/application.css.scss",
+		"/home/ranimosity/SmartCal/Gemfile",
+		"/home/ranimosity/SmartCal/db/schema.rb",
+		"/home/ranimosity/SmartCal/app/views/users/mailer/confirmation_instructions.html.erb",
+		"/home/ranimosity/SmartCal/app/controllers/application_controller.rb",
+		"/home/ranimosity/SmartCal/tmp/cache/assets/development/sass/68736444427894084f68f43814f4ae0b8ce4c383/application.css.scssc",
+		"/home/ranimosity/SmartCal/app/views/layouts/application.html.erb",
+		"/home/ranimosity/SmartCal/app/helpers/application_helper.rb",
+		"/home/ranimosity/SmartCal/config/application.rb",
+		"/home/ranimosity/SmartCal/public/assets/twitter/bootstrap/variables.less",
+		"/home/ranimosity/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/ranimosity/.config/sublime-text-3/Packages/BeautifyRuby/BeautifyRuby.sublime-settings",
+		"/home/ranimosity/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"submit",
+			"jquery-1.6.1",
+			"*\n",
+			"js",
+			"duration",
+			"<div class=\"container\">\n<div class=\"row\">\n<div class='col-sm-6'>\n<div class=\"form-group\">\n<div class='input-group date' id='datetimepicker3'>\n<input type='text' class=\"form-control\" />\n<span class=\"input-group-addon\"><span class=\"glyphicon glyphicon-time\"></span>\n</span>\n</div>\n</div>\n</div>\n<script type=\"text/javascript\">\n$(function () {\n$('#datetimepicker3').datetimepicker({\nformat: 'LT'\n});\n});\n</script>\n</div>\n</div>",
+			"start_Bound",
+			"start_bound",
+			"start_Bound",
+			"@fontAwesomeEotPath",
+			"configure_permitted_parameters",
+			"configure"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "church.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"application",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"appli",
+				"app/assets/stylesheets/application.css.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 347.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

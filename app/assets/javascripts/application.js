@@ -13,4 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require bootstrap-hover-dropdown.min
+//=require jquery.easing.1.3.min.js
+//= require jquery.flexslider-min.js
 //= require_tree .

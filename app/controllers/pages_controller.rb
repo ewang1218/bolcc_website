@@ -1,8 +1,8 @@
-class PageControllerController < ApplicationController
+class PagesController < ApplicationController
   def home
   end
 
-  def upcoming_news
+  def upcoming_events
   end
 
   def about_us
@@ -11,12 +11,12 @@ class PageControllerController < ApplicationController
   def service_sched
   end
 
-  def testimonies
-  end
-
   def pictures
   end
 
   def contact_us
+  end
+
+  def testimonies
   end
 end
