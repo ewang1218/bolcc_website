@@ -10,9 +10,11 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+//= require bootstrap
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require bootstrap-sprockets
 //= require bootstrap-hover-dropdown.min.js
 //= require jquery.easing.1.3.min.js
 //= require jquery.flexslider-min.js

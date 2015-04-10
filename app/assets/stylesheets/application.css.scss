@@ -24,4 +24,13 @@
  *= require yamm.css
  *= require style-green.css
  *= require bootstrap.min.css
+
+
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
  */
+
+body { padding-top: 30px; }	

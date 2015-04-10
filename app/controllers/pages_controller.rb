@@ -1,4 +1,5 @@
 class PagesController < ApplicationController
+
   def home
   end
 
@@ -11,12 +12,12 @@ class PagesController < ApplicationController
   def service_sched
   end
 
-  def pictures
-  end
-
   def contact_us
   end
 
   def testimonies
+  end
+
+  def resources
   end
 end
