@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   
-  root 'pages#home'
+  root 'pages#welcome'
   get 'upcoming_events' => 'pages#upcoming_events'
   get 'about_us' => 'pages#about_us'
   get 'service_sched' => 'pages#service_sched'
