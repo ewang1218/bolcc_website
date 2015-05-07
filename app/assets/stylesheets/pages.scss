@@ -1,3 +1,9 @@
+body{
+	width: auto !important;
+	overflow-x: hidden !important;
+}
+
+
 #img_container {
     position:relative;
     text-align:center;
@@ -12,14 +18,28 @@ margin:auto;
 
 #webFooter{
 	max-width: 100%;
-	min-width: 100%;
 	height:100%;
-	height: 50px;
 	background-color: black;
 	bottom: 0px;
-	padding:0px;
+	padding:15px;
+	max-height: 270px;
+   	overflow:hidden;
+   	margin-top:50px;
 }
 
 #content{
 	margin:0px;
+}
+
+#container {
+   min-height:100%;
+   position:relative;
+}
+
+.navbar-inverse .navbar-nav > li > a > active{
+    color: #2196f3;
+}
+
+#customHeader{
+	background-color: #333;
 }

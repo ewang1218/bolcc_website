@@ -10,25 +10,12 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
  *= require_self
- *= require animate.css
- *= require flexslider.css
- *= require magnific-popup.css
- *= require owl.carousel.css
- *= require owl.theme.css
- *= require rev-style.css
- *= require style-gold.css
- *= require style.css
- *= require yamm.css
-
-
-
-@import "bootstrap-sprockets";
-@import "bootstrap";  
-@import "font-awesome-sprockets";
- @import "font-awesome";
+ *= require bootstrap
+ *= require bootstrap-theme
+ *= require style
+ *= require pages
+ *= require animate
+ *= require font-awesome
 
  */
-
-body { padding-top: 30px; }	

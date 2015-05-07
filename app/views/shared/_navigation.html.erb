@@ -1,14 +1,13 @@
 
-	<header class="navbar-fixed-top navbar-default">
+	<header class="navbar-default" id="customHeader">
 	  <div class="container-fluid" data-no-turbolink>
 
 	    <nav>
 
 	    <%= link_to(image_tag("bolcc_logo.png"), root_path) %>
-
 	      <ul class="nav navbar-nav navbar-right yamm fixed">
-	        <li><%= link_to "Home",  welcome_path %></li>
-	        <li><%= link_to "About", about_us_path %></li>
+	        <li><%= nav_link "Home",  welcome_path%></li>
+	        <li><%= nav_link "About", about_us_path%></li>
 	        <li class="dropdown">  
 	    		<a href="" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="100" data-close-others="false"> Schedule <b class="caret"></b>
 	    		</a>
@@ -17,10 +16,10 @@
 	        		 <li><%= link_to "Service Schedule",  service_sched_path %></li>
 	    		</ul>
 			</li>  
-	        <li><%= link_to "Pictures",   'https://www.flickr.com/photos/bolcc_atlanta' %></li>
-	        <li><%= link_to "Testimonies", testimonies_path %> </li>
-	        <li><%= link_to "Resources",   resources_path %>   </li>
-	        <li><%= link_to "Sign In",   '#'%>   </li>
+	        <li><%= link_to "Pictures",   'https://www.flickr.com/photos/bolcc_atlanta',  :target => "_blank" %></li>
+	        <li><%= nav_link "Testimonies", testimonies_path %> </li>
+	        <li><%= nav_link "Resources",   resources_path %>   </li>
+	        <li><%= nav_link "Sign In",   '#'%>   </li>
 
 	      </ul>
 	    </nav>

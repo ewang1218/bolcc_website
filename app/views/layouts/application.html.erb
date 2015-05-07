@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html>
+
 <head>
 <title><%= full_title(yield(:title)) %></title>
   <title>Atlanta Bread of Life Christian Church</title>
@@ -8,11 +7,14 @@
   <%= csrf_meta_tags %>
 </head>
 
-<%= render 'shared/navigation' %>
- <div id='content'>
-    <%= yield %>
- </div>
- 
-<%= render 'layouts/footer' %>
 
-</html>
+<div id="container">
+<%= render 'shared/navigation' %>
+
+<div id="content">
+<%= yield %>
+</div>
+
+<div>
+<%= render 'layouts/footer' %>
+</div>
