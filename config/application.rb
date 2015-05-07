@@ -24,9 +24,10 @@ module Bolccwebsite
     config.active_record.raise_in_transactional_callbacks = true
     config.assets.initialize_on_precompile = false
 
-    
+
     config.assets.precompile += [
-      'pages.scss', 'style.css', 'bootstrap.css', 'bootstrap-theme.css']
+      'pages.scss', 'style.css', 'bootstrap.css', 'bootstrap-theme.css', 'boostrap.js', 'application.js', 'application.css.scss', 
+    'animate.css']
   end
 end
 
