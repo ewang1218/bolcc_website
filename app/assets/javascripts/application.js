@@ -34,6 +34,7 @@
 //= require jquery.min.js
 //= require jquery.stellar.min.js
 //= require jquery.sticky.js
+//= require owl.carousel.min.js
 //= require masonary-custom.js
 //= require revolution-custom.js
 //= require sky-forms-custom.js
