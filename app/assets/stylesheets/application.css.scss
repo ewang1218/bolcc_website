@@ -10,16 +10,19 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
  *= require_self
- *= require animate.css
+ *= require bootstrap
+ *= require bootstrap-theme
+ *= require font-awesome
+ *= require animate
+ *= require style
  *= require flexslider.css
- *= require magnific-popup.css
- *= require owl.carousel.css
- *= require owl.theme.css
+ *= require owl.carousel
+ *= require owl.theme
  *= require font-awesome
  *= require style.css
  *= require yamm.css
+ *= require pages
 
 
 

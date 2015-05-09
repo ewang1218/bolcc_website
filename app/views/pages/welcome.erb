@@ -22,6 +22,26 @@
     </div>
     <div class="item">
       <img src="assets/advent-big.png" alt="...">
+ </div>
+
+<div class="flex-container">
+    <div class="flexslider">
+        <ul class="slides">
+            <li>
+                <a href="#"><img src="img/slide1.jpg" /></a>
+            </li>
+ 
+            <li>
+                <img src="img/slide2.jpg" />
+            </li>
+ 
+            <li>
+                <img src="img/slide3.jpg" />
+                <p>Designing The Well-Tempered Web</p>
+            </li>
+        </ul>
+    </div>
+</div>
       <div class="carousel-caption">
           <h3></h3>
       </div>
@@ -36,6 +56,14 @@
 </div> 
 <!-- Carousel -->
 
+<script type="text/javascript">
+jQuery.noConflict($);
+$(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide"
+  });
+});
+</script>
 
  <div class="divide80"></div>
 
@@ -64,10 +92,15 @@
                        <br>
 
                        We welcome you to join us for service every Sunday at 10:45 am. 
+                       <br>
+                       <br>
+
+                       We welcome you to join us for service every Sunday at 10:45 am. 
                     </p>
                 </div>
 
                 <div class="col-md-6">
+                    <img src="assets/churchgroup.jpg" class="img-responsive wow animated shake animated" style="PADDING-LEFT: 50px" alt="">
                     <img src="assets/churchgroup.jpg" class="img-responsive wow animated shake animated" style="PADDING-LEFT: 50px" alt="">
                 </div>
             </div><!--about intro-->
@@ -79,3 +112,5 @@
                 </div>
 
  <div class="divide80"></div>
+
+</body>

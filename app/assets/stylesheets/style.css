@@ -5,6 +5,7 @@
     Version    : V1.4.5
 */
 @import url('http://fonts.googleapis.com/css?family=PT+Sans:400,700');
+
 body { 
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
@@ -92,6 +93,19 @@ h1 {
     margin: 0 0 44px 0;
 }
 
+h1.heading:after{
+    position: relative;
+    left: 18px;
+    content: "";
+    display: inline-block;
+    width: 80%;
+    vertical-align: middle;
+    height: .50em;
+    margin: 0 -200% 0 0;
+    border-top: 1px solid #777777;
+    border-bottom: 1px solid #777777;
+}
+
 h2 {
     font-size: 2.6em;
     font-weight: 400;
@@ -100,7 +114,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.8em;
+    font-size: 2.8em;
     font-weight: 400;
     letter-spacing: normal;
     line-height: 24px;
@@ -377,13 +391,18 @@ p.sub-text{
     text-transform: uppercase;
 }
 .navbar-default .navbar-nav>li>a {
-    color: #333;
+    color: white;
     font-weight:600;
     font-size: 13px;
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
 }
 .navbar-default .navbar-nav>li>a:hover {
+    color: #2196f3;
+
+}
+
+.navbar-default .navbar-nav>li>a:active {
     color: #2196f3;
 
 }
@@ -522,6 +541,7 @@ p.sub-text{
     font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
+    text-transform: bold;
 }
 .yamm-content h3:before{
     content: "";
@@ -3085,7 +3105,7 @@ Version v1.1 css*
     min-height: 70px;
     padding: 10px 0;
     box-shadow: -1px 1px 1px rgba(0,0,0,0.1);
-    background-color:#111;
+    background-color:black;
     transition: all 0.4s ease-in-out;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
@@ -3116,6 +3136,11 @@ Version v1.1 css*
     text-transform: uppercase;
 }
 .navbar-inverse .navbar-nav>li>a:hover {
+    color: #2196f3;
+
+}
+
+.navbar-inverse .navbar-nav>li>a:active {
     color: #2196f3;
 
 }
