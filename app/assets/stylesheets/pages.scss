@@ -1,3 +1,90 @@
-// Place all the styles related to the Pages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+	width: auto !important;
+	overflow-x: hidden !important;
+}
+
+
+#img_container {
+    position:relative;
+    text-align:center;
+}
+
+#imgformat
+{
+max-width:100%; 
+max-height:100%;
+margin:auto;
+}
+
+#webFooter{
+	max-width: 100%;
+	height:100%;
+	background-color: black;
+	bottom: 0px;
+	padding:15px;
+	max-height: 270px;
+   	overflow:hidden;
+   	margin-top:50px;
+}
+
+#content{
+	margin:0px;
+}
+
+#container {
+   min-height:100%;
+   position:relative;
+}
+
+.navbar-inverse .navbar-nav > li > a > active{
+    color: #2196f3;
+}
+
+#customHeader{
+	background-color: #333;
+}
+
+.flexslider .slides img {
+    /*width: 100%;*/
+    display: block;
+}
+
+.flexslider .slides li {
+    position: relative;
+}
+
+.flexslider .flex-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#container {
+   min-height:100%;
+   position:relative;
+}
+
+.navbar-inverse .navbar-nav > li > a > active{
+    color: #2196f3;
+}
+
+#customHeader{
+	background-color: #333;
+}
+
+#aboutbanner.resize{
+    width:540px; /* you can use % */
+    height: auto;
+}
+
+#resources-list{
+	margin-left: 30px;
+}
+
+.table-nonfluid {
+   width: auto !important;
+}

@@ -1,13 +1,65 @@
 <% provide(:title, "About") %>
 <%= stylesheet_link_tag "about" %>
 
-
-<title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
-
 <header>
-<img src="assets/banner.jpg">
+<img id="imgformat" src="assets/banner.jpg" style="height:auto; width:auto; min-width:1600px; max-height:200px;" id="aboutbanner">
 </header>
+ 
+<div class="divide80"></div>
 
-<% content_for :header do -%>
-  <%= stylesheet_link_tag 'edit_product' %>
-<% end -%>
+<div class="center-heading">
+<h1 class="wow animated fadeinDown animated"> ABOUT US </h1>
+<span class="center-line"</span>
+</div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 margin20">
+                    <h3 class="heading">A little about us</h3>
+                    <p align="left">
+                       本 堂由徐永宙傳道在2005年4月成立，秉承母堂－台北靈糧堂的異象【傳承使命．權能宣教．力行聖經．邁向榮耀】，要在亞特蘭大建立一間榮耀的教會。
+
+                       我 們期望弟兄姊妹人人在四個重點方面努力:
+                       能夠跟隨聖靈的引導，讓神在生命中掌權；
+                       渴慕神的話語，能夠力行並宣講聖經；
+                       能夠活出聖潔的生活，有美好的見證；
+                       並且透過團隊的服事，能夠開展聖工祝福別人；
+
+                       我們相信因著亞特蘭大靈糧堂的建立，神會藉著我們生命改變的見證，真實地去影響所接觸到的每一個人，將神的慈愛、喜樂、平安帶給個人，家庭，職場，社區， 甚至萬國萬民中。
+
+                       我 們採用小組教會的架構，邀請每個到教會來的人加入小組，您在小組中將能學習並經歷到: 互相扶持，彼此代禱，相親相愛，堅立信心，靈命更新增長，並且廣傳福音，活出有意義的「標竿人生」。
+                       <br>
+                       <br>
+
+                       We welcome you to join us for service every Sunday at 10:45 am. 
+                    </p>
+                </div>
+
+                <div class="col-md-6">
+                    <img src="assets/churchgroup.jpg" class="img-responsive wow animated shake animated" style="PADDING-LEFT: 50px" alt="">
+                </div>
+            </div><!--about intro-->
+
+
+
+            
+<div class="flexslider" id="flexslider">
+  <ul class="slides">
+    <li>
+      <img src="assets/10yrv2.png" />
+    </li>
+    <li>
+      <img src="assets/sportsday-big.png" />
+    </li>
+    <li>
+      <img src="assets/advent-big.png" />
+    </li>
+  </ul>
+</div>
+
+<!-- Place in the <head>, after the three links -->
+<script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider();
+  });
+</script>
