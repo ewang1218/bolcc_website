@@ -1,38 +1,14 @@
+<% provide(:title, "About") %>
+<%= stylesheet_link_tag "about" %>
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <!-- Carousel indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>   
+<header>
+<img id="imgformat" src="assets/banner.jpg" style="height:auto; width:auto; min-width:1600px; max-height:200px;" id="aboutbanner">
+</header>
  
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" align="center">
-    <div class="item active">
-      <img src="assets/10yrv2.png" align="center" alt="...">
-      <div class="carousel-caption">
-          <h3></h3>
-      </div>
-    </div>
-    <div class="item">
-      <img src="assets/sportsday-big.png" alt="...">
-      <div class="carousel-caption">
-          <h3></h3>
-      </div>
-    </div>
-    <div class="item">
-      <img src="assets/advent-big.png" alt="...">
-      <div class="carousel-caption">
-          <h3></h3>
-      </div>
-    </div>
-  </div>
-
- <div class="divide80"></div>
+<div class="divide80"></div>
 
 <div class="center-heading">
-<h1 class="wow animated fadeInDown animated"> ABOUT US </h1>
+<h1 class="wow animated fadeinDown animated"> ABOUT US </h1>
 <span class="center-line"</span>
 </div>
 
@@ -58,18 +34,36 @@
                        We welcome you to join us for service every Sunday at 10:45 am. 
                     </p>
                 </div>
+<<<<<<< HEAD
 
                 <div class="col-md-6">
                     <img src="assets/churchgroup.jpg" class="img-responsive wow animated shake animated" style="PADDING-LEFT: 50px" alt="">
                 </div>
             </div><!--about intro-->
+=======
+            </div><!--about intro-->
 
 
 
-                <div  id="pastors">
-                <%= render 'layouts/leaders' %>
-                </div>
+            
+<div class="flexslider" id="flexslider">
+  <ul class="slides">
+    <li>
+      <img src="assets/10yrv2.png" />
+    </li>
+    <li>
+      <img src="assets/sportsday-big.png" />
+    </li>
+    <li>
+      <img src="assets/advent-big.png" />
+    </li>
+  </ul>
+</div>
 
- <div class="divide80"></div>
-
-</body>
+<!-- Place in the <head>, after the three links -->
+<script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider();
+  });
+</script>
+>>>>>>> b41762eb132fa37f78ec480f35af4ad246677aa3

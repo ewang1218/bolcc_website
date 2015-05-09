@@ -1,4 +1,4 @@
-
+<<<<<<< HEAD
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Carousel indicators -->
             <ol class="carousel-indicators">
@@ -28,11 +28,16 @@
       </div>
     </div>
   </div>
+  
 
  <div class="divide80"></div>
 
 <div class="center-heading">
+<<<<<<< HEAD
 <h1 class="wow animated fadeInDown animated"> ABOUT US </h1>
+=======
+<h1 class="wow animated fadeinDown animated"> ABOUT US </h1>
+>>>>>>> b41762eb132fa37f78ec480f35af4ad246677aa3
 <span class="center-line"</span>
 </div>
 
