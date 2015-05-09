@@ -25,9 +25,7 @@ module Bolccwebsite
     config.assets.initialize_on_precompile = false
 
 
-    config.assets.precompile += [
-      'pages.scss', 'style.css', 'bootstrap.css', 'bootstrap-theme.css', 'boostrap.js', 'application.js', 'application.css.scss', 
-    'animate.css']
+    config.assets.precompile += %w( .js .css *.css.scss .svg .eot .woff .ttf)
   end
 end
 

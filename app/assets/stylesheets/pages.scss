@@ -43,3 +43,22 @@ margin:auto;
 #customHeader{
 	background-color: #333;
 }
+
+.flexslider .slides img {
+    /*width: 100%;*/
+    display: block;
+}
+
+.flexslider .slides li {
+    position: relative;
+}
+
+.flexslider .flex-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+}
