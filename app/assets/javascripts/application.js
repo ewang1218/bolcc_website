@@ -40,4 +40,3 @@
 //= require tweetie.min.js
 //= require typed.js
 //= require wow.min.js
-//= require_tree .
