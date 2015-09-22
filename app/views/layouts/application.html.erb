@@ -1,20 +1,30 @@
+<div id="wrap">
 
-<head>
-<title><%= full_title(yield(:title)) %></title>
-  <title>Atlanta Bread of Life Christian Church</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
+    <div id="main">
+
+    <head>
+    <title><%= full_title(yield(:title)) %></title>
+      <title>Atlanta Bread of Life Christian Church</title>
+      <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+      <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+      <%= csrf_meta_tags %>
+    </head>
 
 
-<div id="wrapper">
-<div id="container">
-<%= render 'shared/navigation' %>
+    <div id="wrapper">
+    <div id="container">
+    <%= render 'shared/navigation' %>
 
-<div id="content">
-<%= yield %>
+    <div id="content">
+    <%= yield %>
+    </div>
+
+
+    </div>
+
+</div>  
 </div>
+</div>          
 
 <div id="footer5">
 <%= render 'layouts/footer' %>

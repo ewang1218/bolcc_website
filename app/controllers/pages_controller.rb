@@ -20,4 +20,8 @@ class PagesController < ApplicationController
 
   def resources
   end
+
+  def service_sched_2014
+  end
+
 end
