@@ -2331,8 +2331,8 @@ ul.post-desc li + li{
 /****************************breadcrumb***************************/
 .breadcrumb-wrap{
     padding: 65px 0;
-background:url(../img/showcase-4.jpg) repeat top center fixed;
-background-size: cover;
+    background-image: url(image_path('aboutus-4.jpg'));
+    background-size: cover;
 }
 .breadcrumb-wrap h4{
     margin: 0px;

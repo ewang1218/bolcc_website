@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   get 'resources' => 'pages#resources'
   get 'welcome' => 'pages#welcome'
   get 'service_sched_2014' => 'pages#service_sched_2014'
+  get 'login_register' => 'pages#login_register'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

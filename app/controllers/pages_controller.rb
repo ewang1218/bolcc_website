@@ -24,4 +24,7 @@ class PagesController < ApplicationController
   def service_sched_2014
   end
 
+  def login_register
+  end
+
 end
