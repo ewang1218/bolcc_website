@@ -1,5 +1,13 @@
 Rails.application.routes.draw do
   
+  get 'users/new'
+
+  get 'users/new'
+
+  get 'users/new'
+
+  get 'sessions/new'
+
   root 'pages#welcome'
   get 'upcoming_events' => 'pages#upcoming_events'
   get 'about_us' => 'pages#about_us'
