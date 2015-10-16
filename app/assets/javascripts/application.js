@@ -13,11 +13,11 @@
 //= require jquery
 //= require jquery_ujs
 //= require bootstrap
+//= require bootstrap-hover-dropdown.min.js
+//= require jquery.flexslider-min.js
 //= require turbolinks
 //= require bootstrap-sprockets
-//= require bootstrap-hover-dropdown.min.js
 //= require jquery.easing.1.3.min.js
-//= require jquery.flexslider-min.js
 //= require bootstrap.min.js
 //= require bootstrap.touchspin.js
 //= require contact_me.js

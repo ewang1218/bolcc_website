@@ -160,7 +160,7 @@ PLATFORMS
 DEPENDENCIES
   autoprefixer-rails
   bootstrap-sass
-  byebug
+  byebug (= 6.0.2)
   coffee-rails (~> 4.1.0)
   font-awesome-rails
   font-awesome-sass
