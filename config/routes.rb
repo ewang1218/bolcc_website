@@ -1,16 +1,21 @@
 Rails.application.routes.draw do
-  
-  root 'pages#welcome'
-  get 'upcoming_events' => 'pages#upcoming_events'
-  get 'about_us' => 'pages#about_us'
-  get 'service_sched' => 'pages#service_sched'
-  get 'contact_us' => 'pages#contact_us'
-  get 'testimonies' => 'pages#testimonies'
-  get 'resources' => 'pages#resources'
-  get 'welcome' => 'pages#welcome'
-  get 'service_sched_2014' => 'pages#service_sched_2014'
-  get 'login_register' => 'pages#login_register'
 
+
+  scope "(:locale)", :locale => /en|zh/ do
+    root 'pages#welcome'
+      get 'upcoming_events' => 'pages#upcoming_events'
+      get 'about_us' => 'pages#about_us'
+      get 'service_sched' => 'pages#service_sched'
+      get 'contact_us' => 'pages#contact_us'
+      get 'testimonies' => 'pages#testimonies'
+      get 'resources' => 'pages#resources'
+      get 'welcome' => 'pages#welcome'
+      get 'service_sched_2014' => 'pages#service_sched_2014'
+      get 'login_register' => 'pages#login_register'
+
+  end
+  
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
