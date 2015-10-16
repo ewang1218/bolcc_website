@@ -79,7 +79,5 @@ Rails.application.configure do
 
   config.serve_static_assets = true
   config.assets.compile = true
-
-  config.assets.precompile += %w( owl.carousel.min.js )
-  config.assets.precompile += %w( jquery.flexslider-min.js )
+  config.assets.version = '1.1'
 end
