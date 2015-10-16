@@ -27,6 +27,7 @@ gem "font-awesome-rails"
 gem 'font-awesome-sass'
 gem 'autoprefixer-rails'
 gem 'i18n'
+gem 'rails_12factor'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

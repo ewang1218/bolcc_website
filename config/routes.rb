@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+resources :pages
+
   scope "(:locale)", :locale => /en|zh/ do
     root 'pages#welcome'
       get 'upcoming_events' => 'pages#upcoming_events'

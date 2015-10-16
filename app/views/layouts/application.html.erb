@@ -15,7 +15,7 @@
     <div id="container">
     <div id="lang_bar" align="right">
     <%= link_to_unless I18n.locale == :en, "English", locale: :en %> |
-      <%= link_to_unless I18n.locale == :zh, "中文", locale: :zh%>
+      <%= link_to_unless I18n.locale == :zhs, "中文", locale: :zh%>
       </div>
     <%= render 'shared/navigation' %>
 
